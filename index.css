@@ -1,0 +1,43 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+
+/* 기본 설정 */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 본문 스타일 */
+body {
+  color: #212121; 
+  background: #ccc;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* 레이아웃 */
+.header, .nav, .main, .footer {
+  margin: 0 auto;
+}
+
+/* 헤더영역 스타일 */
+.header {
+  background-color: tomato;
+  height: 15vh;
+}
+
+/* 네비게이션 영역 스타일 */
+.nav  {
+  background-color: lightsalmon;
+  height: 10vh;
+}
+
+/* 메인영역 스타일 */
+.main {
+  background-color: LemonChiffon;
+  height: 65vh;
+}
+
+/* 푸터영역 스타일 */
+.footer {
+  background-color: Aquamarine;
+  height: 10vh;
+}
