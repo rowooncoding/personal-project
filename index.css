@@ -20,7 +20,7 @@ body {
 
 /* 헤더영역 스타일 */
 .header {
-  background-color: tomato;
+  background-color: white;
   height: 15vh;
   text-align: center;
 }
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   padding: 0 24px;
   position: relative;
-  bottom: 10px;
+  bottom: 17px;
 }
 
 .header_nav a {
