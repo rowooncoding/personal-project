@@ -16,7 +16,7 @@ a {
 /* 본문 스타일 */
 body {
   color: #212121; 
-  background: #ccc;
+  background: rgb(255, 255, 255);
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
@@ -54,8 +54,42 @@ body {
 
 /* 네비게이션 영역 스타일 */
 .nav  {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   height: 10vh;
+  border-bottom: 1px solid gray;
+}
+
+.nav_list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.nav_list li {
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 10px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  border-radius: 15px 15px 0 0;
+  color: #535353;
+  /* margin: 0 -.25rem;
+  padding: 0 .25rem; */
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav_list li:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+.nav_list a {
+  display: block;
+  background-color: #54b3d6;
+  width: 350px;
+  height: 61px;
+  border-radius: 15px 15px 0 0;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 /* 메인영역 스타일 */
