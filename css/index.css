@@ -1,9 +1,16 @@
 @import url(./normalize.css);
 @import url(./reset.css);
+@import url(./fontello.css);
 
 /* 기본 설정 */
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+/* 엥커 스타일 */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* 본문 스타일 */
@@ -25,6 +32,7 @@ body {
   text-align: center;
 }
 
+/* 헤더 네비게이션 */
 .header_nav {
   text-align: right;
 }
@@ -37,11 +45,6 @@ body {
   bottom: 17px;
 }
 
-.header_nav a {
-  color: #212121;
-  text-decoration: none;
-}
-
 /* 네비게이션 영역 스타일 */
 .nav  {
   background-color: lightsalmon;
@@ -52,6 +55,25 @@ body {
 .main {
   background-color: LemonChiffon;
   height: 65vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* 메인 섹션영역 */
+.main_corn  {
+  background-color: tomato;
+}
+
+.main_flatBottom  {
+  background-color: lightpink;
+}
+
+.main_pocket  {
+  background-color: chartreuse;
+}
+
+.main_etc {
+  background-color: lightskyblue;
 }
 
 /* 푸터영역 스타일 */
