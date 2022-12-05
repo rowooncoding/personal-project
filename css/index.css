@@ -34,15 +34,16 @@ body {
 
 /* 헤더 네비게이션 */
 .header_nav {
-  text-align: right;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 
 .header_nav li  {
-  /* background-color: blue; */
-  display: inline-block;
-  padding: 0 24px;
+  font-size: 14px;
   position: relative;
-  bottom: 17px;
+  right: 10px;
+  bottom: 90px;
 }
 
 /* 네비게이션 영역 스타일 */
